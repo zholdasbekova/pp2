@@ -3,7 +3,7 @@ class Shape:
         return 0
 
 class Rectangle(Shape):
-    def init(self, length, width):
+    def __init__(self, length, width):
         self.length = length
         self.width = width
     def area(self):

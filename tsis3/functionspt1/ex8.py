@@ -3,6 +3,6 @@ def spy_game(nums):
     return '007' in nums_str
 
 user_input = input("Enter a list of integers separated by spaces: ")
-nums = [int(num) for num in user_input.split()]
+nums = [str(num) for num in user_input.split()]
 result = spy_game(nums)
 print(f"The list {nums} contains '007' in order: {result}")
